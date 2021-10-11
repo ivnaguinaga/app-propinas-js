@@ -6,5 +6,7 @@ function calculo(params) {
     alert(servicio);
     let personas = document.getElementById('personas').value;
     alert(personas);
-    console.log('total: ' + totalCuenta + ' servicio: ' + servicio + ' personas: ' + personas);
+    let resultado = (servicio * totalCuenta) / personas;
+    console.log('resultado: ' + resultado);
+
 }
